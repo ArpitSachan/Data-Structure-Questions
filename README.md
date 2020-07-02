@@ -5,11 +5,12 @@
 
 | Sl.No|  Data Structure       |
 |------|------------------|
-| 01. |[Array](#array)|
+| 01. |[Arrays](#arrays)|
+| 02. |[Searching](#searching)|
 
 <br/>
 
-### Array
+### Arrays
   * [Frequencies of Limited Range Array Elements](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/Frequencies%20of%20Limited%20Range%20Array%20Elements.cpp) problem have been done with O(n) time and O(1) space complexity.
   * [Smallest positive missing number](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/smallest%20positive%20missing%20number.cpp) problem have been done with O(1) space complexity and O(n) time complexity.
   * [Maximum Index](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/Maximum%20Index.cpp) problem takes O(n) time and O(n) auxiliary space complexity.
@@ -18,3 +19,9 @@
   * [Max circular subarray sum](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/Max%20circular%20subarray%20sum.cpp) problem takes O(n) time and O(1) space complexity.
   * [Longest subarray of even odds](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/longest%20subarray%20of%20even%20odds.cpp) problem takes O(n) time and O(1) auxiliary space compexity.
   * [Check if array is sorted and rotated](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Array/Check%20if%20array%20is%20sorted%20and%20rotated.cpp) problem takes O(n) time and O(1) auxiliary space compexity.
+  
+  ### Searching
+  * [Count repeated only](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Count%20only%20repeated.cpp) problem have been done with O(logn) time and O(1) space complexity.
+  * [Maximum water b/w two buildings](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Max%20water%20between%20two%20buildings.cpp) problem have been done with O(n) time and O(1) space complexity.
+  * [Two repeated elements](https://practice.geeksforgeeks.org/problems/two-repeated-elements-1587115621/1/?track=SPCF-Searching&batchId=154) problem have been done with O(n) time and O(1) space complexity.
+  * [Min number in a sorted and rotated array](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Minimum%20no.%20in%20a%20sorted%20rotated%20array.cpp) problem have been done with O(logn) time and O(logn) space complexity.
