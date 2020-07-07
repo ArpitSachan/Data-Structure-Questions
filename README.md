@@ -7,6 +7,7 @@
 |------|------------------|
 | 01. |[Arrays](#arrays)|
 | 02. |[Searching](#searching)|
+| 03. |[Sorting](#sorting)|
 
 <br/>
 
