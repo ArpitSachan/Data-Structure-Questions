@@ -7,6 +7,7 @@
 |------|------------------|
 | 01. |[Arrays](#arrays)|
 | 02. |[Searching](#searching)|
+| 03. |[Sorting](#sorting)|
 
 <br/>
 
@@ -23,9 +24,17 @@
   ### Searching
   * [Count repeated only](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Count%20only%20repeated.cpp) problem have been done with O(logn) time and O(1) space complexity.
   * [Maximum water b/w two buildings](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Max%20water%20between%20two%20buildings.cpp) problem have been done with O(n) time and O(1) space complexity.
-  * [Two repeated elements](https://practice.geeksforgeeks.org/problems/two-repeated-elements-1587115621/1/?track=SPCF-Searching&batchId=154) problem have been done with O(n) time and O(1) space complexity.
+  * [Two repeated elements](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Two%20repeated%20elements.cpp) problem have been done with O(n) time and O(1) space complexity.
   * [Min number in a sorted and rotated array](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Minimum%20no.%20in%20a%20sorted%20rotated%20array.cpp) problem have been done with O(logn) time and O(logn) space complexity.
   * [Allocate minimum number of pages](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Allocate%20min%20no%20of%20pages.cpp) problem have been done with O(nlogn) time and O(1) space complexity.
   * [Median of two soerte arrays](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Median%20of%20two%20sorted%20arrays.cpp) problem have been done with O(log(min(n,m))) time and O(1) space complexity.
   * [Subarray with given sum](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/subarray%20with%20given%20sum.cpp) problem have been done with O(n) time and O(1) space complexity.
+  
+  ### Sorting
+  * [Inversions in an array](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Inversion%20in%20an%20array.cpp) problem have been done with O(nlogn) time and O(n) space complexity.
+  * [Kth smallest element](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Kth%20Smallest%20element.cpp) problem have been done with O(n) time and O(1) space complexity.
+  * [Merge without extra space](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Merge%20without%20extra%20space.cpp) problem have been done with O(n) time and O(1) space complexity.
+  * [Merge three sorted arrays](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Merge%20three%20sorted%20arrays.cpp) problem have been done with O(n+m+p) time and O(n+m+p) space complexity. 
+  * [Number of pairs](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Number%20of%20pairs.cpp) problem have been done with O(n+m(logn)) time and O(1) space complexity.
+
   
