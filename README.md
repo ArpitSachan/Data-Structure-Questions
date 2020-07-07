@@ -25,3 +25,7 @@
   * [Maximum water b/w two buildings](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Max%20water%20between%20two%20buildings.cpp) problem have been done with O(n) time and O(1) space complexity.
   * [Two repeated elements](https://practice.geeksforgeeks.org/problems/two-repeated-elements-1587115621/1/?track=SPCF-Searching&batchId=154) problem have been done with O(n) time and O(1) space complexity.
   * [Min number in a sorted and rotated array](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Minimum%20no.%20in%20a%20sorted%20rotated%20array.cpp) problem have been done with O(logn) time and O(logn) space complexity.
+  * [Allocate minimum number of pages](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Allocate%20min%20no%20of%20pages.cpp) problem have been done with O(nlogn) time and O(1) space complexity.
+  * [Median of two soerte arrays](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/Median%20of%20two%20sorted%20arrays.cpp) problem have been done with O(log(min(n,m))) time and O(1) space complexity.
+  * [Subarray with given sum](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Searching/subarray%20with%20given%20sum.cpp) problem have been done with O(n) time and O(1) space complexity.
+  
