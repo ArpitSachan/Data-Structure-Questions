@@ -8,6 +8,7 @@
 | 01. |[Arrays](#arrays)|
 | 02. |[Searching](#searching)|
 | 03. |[Sorting](#sorting)|
+| 04. |[Matrices](#matrices)|
 
 <br/>
 
@@ -39,5 +40,10 @@
   * [Number of pairs](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Number%20of%20pairs.cpp) problem have been done with O(n+m(logn)) time and O(1) space complexity.
   * [Closer to sort](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Closer%20to%20sort.cpp) problem have been done with O(logn) time and O(1) space complexity.
   * [Minimum Platforms](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Sorting/Minimum%20Platforms.cpp) problem have been done with O(nlogn) time and O(1) space complexity.
+  
+   ## Matrices
+  * [Boolean Matrix Problem](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Matrix/Boolean%20Matrix%20Problem.cpp) problem have been done with O(RxC) time and O(R+C) space complexity.
+  * [Make matrix beautiful](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Matrix/Make%20matrix%20beautiful.cpp) problem have been done with O(n2) time and O(n) space complexity.
+  * [Search in a row col sorted matrix](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Matrix/Search%20in%20a%20row%20col%20sorted%20matrix.cpp) problem have been done with O(n+m) time and O(1) space complexity.
 
   
