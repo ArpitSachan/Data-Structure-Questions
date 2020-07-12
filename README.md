@@ -9,6 +9,7 @@
 | 02. |[Searching](#searching)|
 | 03. |[Sorting](#sorting)|
 | 04. |[Matrices](#matrices)|
+| 05. |[Hashing](#hashing)|
 
 <br/>
 
@@ -46,4 +47,12 @@
   * [Make matrix beautiful](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Matrix/Make%20matrix%20beautiful.cpp) problem have been done with O(n2) time and O(n) space complexity.
   * [Search in a row col sorted matrix](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Matrix/Search%20in%20a%20row%20col%20sorted%20matrix.cpp) problem have been done with O(n+m) time and O(1) space complexity.
 
+
+  ## Hashing
+  * [Zero sum subarrays](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Zero%20sum%20subarrays.cpp) problem have been done with O(n) time and O(n) space complexity.
+  * [Longest consecutive subsequence](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Longest%20consecutive%20subsequence.cpp) problem have been done with O(n) time and O(n) space complexity.
+  * [Relative sorting](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Relative%20sorting.cpp) problem have been done with O(nlogn) time and O(n) space complexity.
+  * [Sorting elements by frequency](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Sorting%20array%20elements%20by%20frequency.cpp) problem have been done with O(nlogn) time and O(n) space complexity.
+  
+  
   
