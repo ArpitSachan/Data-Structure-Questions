@@ -55,7 +55,7 @@
   * [Relative sorting](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Relative%20sorting.cpp) problem have been done with O(nlogn) time and O(n) space complexity.
   * [Sorting elements by frequency](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Hashing/Sorting%20array%20elements%20by%20frequency.cpp) problem have been done with O(nlogn) time and O(n) space complexity.
   
-    ## Strings
+  ## Strings
   * [Distinct pattern search(Naive)](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Distinct%20pattern%20search(Naive).cpp) problem have been done with O(n+m) time and O(1) space complexity.
   * [Leftmost repeating character](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Leftmost%20repeating%20character.cpp) problem have been done with O(n) time and O(26) space complexity.
 
