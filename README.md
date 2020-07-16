@@ -58,6 +58,7 @@
   ## Strings
   * [Distinct pattern search(Naive)](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Distinct%20pattern%20search(Naive).cpp) problem have been done with O(n+m) time and O(1) space complexity.
   * [Leftmost repeating character](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Leftmost%20repeating%20character.cpp) problem have been done with O(n) time and O(26) space complexity.
+  * [Smallest window in a string containing all the characters of another string](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Smallest%20window%20in%20a%20string%20containing%20all%20the%20characters%20of%20another%20string.cpp) problem have been done in linear time and constant space.
 
   
   
