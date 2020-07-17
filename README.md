@@ -62,6 +62,9 @@
   * [Lexicographic rank](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Lexicographic_rank.cpp) problem have been done in O(n) time and O(n) space.
   * [Robin Karp pattern search algorithm](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Robin_Karp_pattern_search.cpp) problem have been done in O(n+m) time and constant space.
   * [KMP pattern search algorithm](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/KMP_pattern_search.cpp) problem have been done in O(n+m) time and O(m) space.
+  * [Longest substring without repeating characters](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Longest_substring_without_repeating_chracters.cpp) problem have been done in O(n) time and O(256) space.
+  * [ZigZag conversion](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/ZigZag_Conversion.cpp) problem have been done in O(n) time and O(n) space.
+ 
 
   
   
