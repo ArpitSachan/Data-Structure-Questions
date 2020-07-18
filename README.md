@@ -64,6 +64,8 @@
   * [KMP pattern search algorithm](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/KMP_pattern_search.cpp) problem have been done in O(n+m) time and O(m) space.
   * [Longest substring without repeating characters](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Longest_substring_without_repeating_chracters.cpp) problem have been done in O(n) time and O(256) space.
   * [ZigZag conversion](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/ZigZag_Conversion.cpp) problem have been done in O(n) time and O(n) space.
+  * [Longest common prefix](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/longest_common_prefix.cpp) problem have been done in O(array_size x smallest string's length) time and O(1) space.
+  * [Substring with conctenation of all words](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/substring_with_conctenation_of_all_words.cpp) problem have been done in O(words_array_size x (string_length)) time and O(n) space.
  
 
   
