@@ -66,6 +66,8 @@
   * [ZigZag conversion](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/ZigZag_Conversion.cpp) problem have been done in O(n) time and O(n) space.
   * [Longest common prefix](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/longest_common_prefix.cpp) problem have been done in O(array_size x smallest string's length) time and O(1) space.
   * [Substring with conctenation of all words](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/substring_with_conctenation_of_all_words.cpp) problem have been done in O(words_array_size x (string_length)) time and O(n) space.
+  * [Group Anagrams](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Group_anagrams.cpp) problem have been done in O(nx(longest_string_length)) time and O(nx(longest_string_length)) space complexity.
+  * [Text justification](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Text_Justification.cpp) problem have been done in O(no_of_lines x maxWidth) time and O(no_of_lines x maxWidth) space complexity.
  
 
   
