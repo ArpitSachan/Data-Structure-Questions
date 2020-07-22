@@ -1,46 +1,43 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-#define loop(n) for(int i=0;i<n;i++)
-int medianOfSortedArrays(int a[], int b[], int n, int m){
-    int l=0, h= n;
-    while(l<=h){
-        int i1=(l+h)/2;
-        int i2=((n+m+1)/2) -i1;
+double findMedianSortedArrays(vector<int>& a, vector<int>& b) {
+        int n=a.size();
+        int m=b.size();
         
-        int min1 = (i1==n)? INT_MAX:a[i1];
-        int max1= (i1==0)? INT_MIN:a[i1-1];
-        
-        int min2=(i2==m)? INT_MAX:b[i2];
-        int max2=(i2==0)? INT_MIN:b[i2-1];
-        
-        if(max2<=min1 && max1<=min2){
-            if((n+m)%2==0) return ((double)max(max1, max2)+min(min1, min2))/2;
+        if(n>m){
+            vector<int> temp= a;
+            a=b;
+            b=temp;
             
-            else return (double) max(max1, max2);
+            int tem=n;
+            n=m;
+            m=tem;
         }
-        else if(max1>min2) h=i1-1;
         
-        else l=i1+1; 
+        int l=0, e=n;
+        while(l<=e){
+            int i=(l+e)/2;
+            int j=((n+m+1)/2)-i;
+            
+            if(i<e && a[i]<b[j-1]) l=i+1;
+            
+            else if(i>l && a[i-1]>b[j]) e=i-1;
+            
+            else{
+                int maxLeft=0;
+                
+                if(i==0) maxLeft=b[j-1];
+                else if(j==0) maxLeft=a[i-1];
+                else maxLeft= max(a[i-1], b[j-1]);
+                
+                if((n+m)%2==1) return maxLeft;
+                
+                int minRight=0;
+                if(i==n) minRight=b[j];
+                else if(j==m) minRight=a[i];
+                else minRight=min(a[i], b[j]);
+                
+                return (minRight+maxLeft)/2.0;
+                    
+            }
+        }
+        return 0.0;
     }
-    return -1;
-}
-int main() {
-	int t;
-	cin>>t;
-	while(t--){
-	    int n,m;
-	    cin>>n>>m;
-	    int a[n];
-	    int b[m];
-	     loop(n){
-	        cin>>a[i];
-	    }
-	     loop(m){
-	        cin>>b[i];
-	    }
-	    n<m? cout<<medianOfSortedArrays(a, b, n, m)<<endl: cout<<medianOfSortedArrays(b, a, m, n)<<endl;
-	    
-	}
-	return 0;
-}
