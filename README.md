@@ -11,6 +11,7 @@
 | 04. |[Matrices](#matrices)|
 | 05. |[Hashing](#hashing)|
 | 06. |[Strings](#strings)|
+| 07. |[Linked List](#linked-list)|
 
 <br/>
 
@@ -69,7 +70,8 @@
   * [Group Anagrams](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Group_anagrams.cpp) problem have been done in O(nx(longest_string_length)) time and O(nx(longest_string_length)) space complexity.
   * [Text justification](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Strings/Text_Justification.cpp) problem have been done in O(no_of_lines x maxWidth) time and O(no_of_lines x maxWidth) space complexity.
  
-
-  
+ ## Linked List
+ * [Merge two sorted linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Merge%20Two%20sorted%20linked%20list.cpp) has been done in O(m+n) time and O(1) space.
+ * [Remove loop from a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Remove%20loop%20from%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
   
   
