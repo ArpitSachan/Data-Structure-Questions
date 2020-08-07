@@ -73,5 +73,11 @@
  ## Linked List
  * [Merge two sorted linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Merge%20Two%20sorted%20linked%20list.cpp) has been done in O(m+n) time and O(1) space.
  * [Remove loop from a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Remove%20loop%20from%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
+ * [Merge sort for linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/merge%20sort%20for%20linked%20list.cpp) has been done in O(nlogn) time and O(1) auxiliary space.
+ * [Merge sort on doubly linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/merge%20sort%20on%20doubly%20linked%20list.cpp) has been done in O(nlogn) time and O(1) auxiliary space.
+ * [Merge K sorted linked lists](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Merge%20K%20sorted%20linked%20lists.cpp) has been done in O(nklogk) time and O(k) auxiliary space.
+ * [Clone a linked list with next and random pointer](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/clone%20a%20linked%20list%20with%20next%20and%20random%20pointer.cpp) has been done in O(n) time and O(1) auxiliary space.
+ * [segregate 0s, 1s and 2s](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/segregate%200s%2C%201s%20and%202s.cpp) has been done in O(n) time and O(1) auxiliary space.
+ * [rotate a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/rotate%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
   
   
