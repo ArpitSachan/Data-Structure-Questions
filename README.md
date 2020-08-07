@@ -79,5 +79,6 @@
  * [Clone a linked list with next and random pointer](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/clone%20a%20linked%20list%20with%20next%20and%20random%20pointer.cpp) has been done in O(n) time and O(1) auxiliary space.
  * [segregate 0s, 1s and 2s](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/segregate%200s%2C%201s%20and%202s.cpp) has been done in O(n) time and O(1) auxiliary space.
  * [rotate a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/rotate%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
+ * [LRU Cache](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/LRU%20Cache%20Design.cpp) has been done in O(1) time and O(1) auxiliary space.
   
   
