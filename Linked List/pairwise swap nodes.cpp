@@ -1,24 +1,30 @@
-struct Node* pairwise_swap(struct Node* head)
-{
-    if(head==NULL || head->next==NULL) return head;
-    Node* first=head;
-    Node* second=head->next;
-    Node* prev=NULL;
-    head=second;
-    while(second!=NULL){
-        Node* temp=second->next;
-        second->next=first;
-        first->next=temp;
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        if(head==NULL || head->next==NULL) return head;
+        ListNode* first=head;
+        ListNode* second=head->next;
+        ListNode* prev =NULL;
         
-        if(prev!=NULL){
-            prev->next=second;
+        while(second!=NULL && second->next!=NULL){
+            ListNode* next=second->next;
+            first->next=next;
+            second->next=first;
+            if(prev!=NULL){
+            prev->next=second;}
+            else head=second;
+            prev=first;
+            first=next;
+            second=next->next;
         }
-        if(temp==NULL){
-            break;
+        if(second){
+            ListNode* next=second->next;
+            first->next=next;
+            second->next=first;
+            if(prev!=NULL){
+            prev->next=second;}
+             else head=second;
         }
-        prev=first;
-        first=temp;
-        second=temp->next;
+        return head;
     }
-    return head;
-}
+};

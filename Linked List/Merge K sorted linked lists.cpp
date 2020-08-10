@@ -1,38 +1,56 @@
-Node* merge(Node* a, Node* b){
-    if(a==NULL) return b;
-    if(b==NULL) return a;
-    Node* head;
-    Node* tail;
-    
-    if(a->data<=b->data){
-        head=a;
-        tail=a;
-        a=a->next;
-    }else{
-        head=b;
-        tail=b;
-        b=b->next;
-    }
-    while(a!=NULL && b!=NULL){
-        if(a->data<=b->data){
-            tail->next=a;
-            tail=a;
+class Solution {
+public:
+    ListNode* merge(ListNode* l1, ListNode* l2){
+        if(l1==NULL) return l2;
+        if(l2==NULL) return l1;
+        
+        ListNode* head=NULL;
+        ListNode* tail=NULL;
+        ListNode* a=NULL;
+        ListNode* b=NULL;
+        
+        if(l1->val<l2->val){
+            a=l1;
+            head=tail=a;
+            b=l2;
             a=a->next;
         }else{
-            tail->next=b;
-            tail=b;
-            b=b->next;
+            a=l2;
+            head=tail=l2;
+            b=l1;
+            a=a->next;
         }
+        
+        while(a &&b){
+            if(a->val<b->val){
+                tail->next=a;
+                tail=a;
+                a=a->next;
+            }else{
+                tail->next=b;
+                tail=b;
+                b=b->next;
+            }
+        }
+        
+        if(a) tail->next=a;
+        else tail->next=b;
+        
+        return head;
     }
-    if(a==NULL) tail->next=b;
-    else tail->next=a;
-    return head;
-}
-Node * mergeKLists(Node *a[], int N)
-{ 
-    for(int i=1;i<N;i++){
-        a[0]=merge(a[0], a[i]);
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if(lists.size()==0) return NULL;
+        
+        int r=lists.size()-1;
+        while(r!=0){
+            int i=0, j=r;
+            while(i<j){
+                lists[i]=merge(lists[i], lists[j]);
+                i++;j--;
+                
+                if(i>=j) r=j;
+            }
+        }
+        return lists[0];
     }
-    
-    return a[0];
-}
+};
