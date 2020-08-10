@@ -80,5 +80,5 @@
  * [segregate 0s, 1s and 2s](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/segregate%200s%2C%201s%20and%202s.cpp) has been done in O(n) time and O(1) auxiliary space.
  * [rotate a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/rotate%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
  * [LRU Cache](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/LRU%20Cache%20Design.cpp) has been done in O(1) time and O(1) auxiliary space.
-  
+ * [Reverse in groups of K](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Reverse%20list%20in%20groups%20of%20K.cpp) has been done in O(n) time and O(1) aux space.
   
