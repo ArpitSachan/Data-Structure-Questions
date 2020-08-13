@@ -12,6 +12,7 @@
 | 05. |[Hashing](#hashing)|
 | 06. |[Strings](#strings)|
 | 07. |[Linked List](#linked-list)|
+| 08. |[Stack](#stack)|
 
 <br/>
 
@@ -81,4 +82,9 @@
  * [rotate a linked list](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/rotate%20a%20linked%20list.cpp) has been done in O(n) time and O(1) auxiliary space.
  * [LRU Cache](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/LRU%20Cache%20Design.cpp) has been done in O(1) time and O(1) auxiliary space.
  * [Reverse in groups of K](https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Linked%20List/Reverse%20list%20in%20groups%20of%20K.cpp) has been done in O(n) time and O(1) aux space.
+ 
+ ## Stack
+ * [Maximum Rectangular area in histogram] (https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Stack/Max%20rectangular%20area%20in%20histogram.cpp) takes O(n) time and O(n) space.
+ * [The Celebrity Problem] (https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Stack/The%20celebrity%20problem.cpp) takes O(N) time and O(1) space without stack solution and O(n) space in with stack.
+ * [Maximum of Minimum of every window size] (https://github.com/ArpitSachan/Data-Structure-Questions/blob/master/Stack/Maximum%20of%20minimum%20of%20every%20window%20size.cpp) takes O(n) time and O(n) space.
   
